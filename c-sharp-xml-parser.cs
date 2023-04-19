@@ -21,7 +21,7 @@ public class XMLParser
       string isim = kisiDetail.SelectSingleNode("isim").InnerText; // "isim" içeriğini alın
       int yas = Convert.ToInt32(kisiDetail.SelectSingleNode("yas").InnerText); // "yas" içeriğini alın
       
-      // Verileri ekrana yazdırın
+      // Verileri ekrana yazdırın veya satır bazında veritabanı vs. gibi işlemler ile devam edebilirsiniz
       Console.WriteLine("İsim: " + isim);
       Console.WriteLine("Yaş: " + yas);
       Console.WriteLine();
